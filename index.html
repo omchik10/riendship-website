@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ladybug & Yoval & Marom</title>
+
+    <style>
+        body {
+            background-color: aqua;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: brown;
+            font-size: large;
+            left: 100px; 
+        }
+
+        p {
+            color: crimson;
+            font-size: medium;
+            left: 100px;  
+        }
+
+        .h1box {
+            width: 500px;
+            height: 50px;   
+            position: relative;
+            left: 350px;
+        }
+
+        .pbox {
+            width: 500px;
+            height: 50px;
+            position: relative; 
+            left: 375px;
+            bottom: 25px;
+        }
+
+        img {
+            width: 200px;
+            height: auto;
+            position: relative;
+            left: 400px;
+            bottom: 50px;
+        }
+
+        .button1 {
+            position: absolute;
+            left: 100px;
+        }
+
+        .button2 {
+            position: absolute; 
+            left: 500px;
+        }
+
+        .button3 {
+            position: absolute;
+            right: 100px;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color:darkgreen;
+        }
+    </style>
+
+<script>
+    function infoL() {
+      alert("This is ladybug 😎");
+    }
+
+    function infoY() {
+      alert("This is Yoval 😎");
+    }
+
+    function infoM() {
+      alert("This is Marom 😎");
+    }
+  </script>
+</head>
+<body>
+    <div class="h1box">
+        <h1> Ladybug, Yoval and Marom are BFF!</h1>
+    </div>
+
+    <div class="pbox">
+        <p>I was bored so this is what I did...</p>
+    </div>
+
+    <div class="img">
+        <img src="יובל מרום והילה.jpg" alt="Embarrassing picture">
+    </div>
+
+   <button class="button1" onclick="infoL()">Ladybug</button>
+   <button class="button2" onclick="infoY()">Yoval</button>
+   <button class="button3" onclick="infoM()">Marom</button>
+
+</body>
+</html>
